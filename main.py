@@ -1,5 +1,6 @@
 from TextManipulator import *
+import pandas as pd
 
-text_manipulator = TextManipulator();
+text_manipulator = TextManipulator()
 
-print(text_manipulator.strip_spaces('not           good'))
+
