@@ -31,7 +31,7 @@ class TextManipulator:
 
     @staticmethod
     def remove_unnecessary_words(text):
-        text = re.sub(r'(&[^;]{3,6};)|(but)|(why)|(where)|(good with pain)|(it burns)|[\'\./\?:-]', "", text)
+        text = re.sub(r'(&[^;]{3,6};)|(but)|(why)|(where)|[\'\./\?:-]', "", text)
 
         return text
 
